@@ -96,7 +96,9 @@
   transition: border-color var(--t), box-shadow var(--t);
   outline: none;
   resize: none;
-  -webkit-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
 }
 .form-group input:focus,
 .form-group textarea:focus,
